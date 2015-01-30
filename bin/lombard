@@ -1,1 +1,49 @@
 #!/usr/bin/env ruby
+require 'lombard'
+
+def version
+  puts "Lombard #{Lombard.version} - Adrien Cadet"
+end
+
+def help
+  puts "Lombard fetches weather to your terminal.
+
+Usage:
+  lombard \"<city>\"
+Where
+  city: Any city on Earth. Mars will be soon supported.
+
+Options:
+  --favorites   Fetches forecast for each favorite
+  --help        Displays this message
+  --init        Creates default config file
+  --version     Gets current version
+  "
+end
+
+def init
+  Lombard.init_config
+end
+
+def favorites
+  Lombard.new().favorites()
+end
+
+if ARGV.size < 1
+  favorites
+else
+  arg = ARGV[0]
+
+  if arg == '--version'
+    version
+  elsif arg == '--help'
+      help
+  elsif arg == '--init'
+    init
+  elsif arg == '--favorites'
+    favorites
+  else
+    Lombard.new().run(ARGV.join(" "))
+  end
+end
+
