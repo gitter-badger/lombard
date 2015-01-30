@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.email = 'acadet@live.fr'
   s.files = [ 'README.md', 'bin/lombard', 'lib/lombard.rb' ]
   s.executables = [ 'lombard' ]
+  s.license = "MIT"
 
   # Dependencies
   s.add_dependency 'httparty'
