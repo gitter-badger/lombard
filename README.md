@@ -1,5 +1,5 @@
 # Lombard
-Quickly overview weather forecast in your preferred cities, using [OpenWeatherMap API](http://openweathermap.org/).
+Quickly overview weather forecast in your preferred cities, using [OpenWeatherMap's API](http://openweathermap.org/).
 
 ## Get started
 
