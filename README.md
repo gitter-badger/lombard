@@ -1,4 +1,4 @@
-# Lombard
+# Lombard [![Gem Version](https://badge.fury.io/rb/lombard.svg)](http://badge.fury.io/rb/lombard)
 Quickly overview weather forecast in your preferred cities, using [OpenWeatherMap's API](http://openweathermap.org/).
 
 ## Get started
