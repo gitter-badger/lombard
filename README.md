@@ -1,4 +1,6 @@
 # Lombard [![Gem Version](https://badge.fury.io/rb/lombard.svg)](http://badge.fury.io/rb/lombard)
+
+[![Join the chat at https://gitter.im/acadet/lombard](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/acadet/lombard?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Quickly overview weather forecast in your preferred cities, using [OpenWeatherMap's API](http://openweathermap.org/).
 
 ## Get started
